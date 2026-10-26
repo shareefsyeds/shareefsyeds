@@ -20,7 +20,7 @@ Each project has a full write-up with an interactive diagram in [case-studies](h
 ### Also on the platform
 
 - **Eight self-service apps** that let staff run routine operations themselves: release automation, environment builds (21 automated steps), self-service database accounts, data provisioning with expiry, multi-tenant account management, email deliverability checks, document delivery and operational dashboards. Every action is audited.
-- **Observability platform and credential vault:** metrics, logs, alerting and runbooks, plus secrets with KMS envelope encryption, rotation and Azure AD directory sync.
+- **Observability, uptime monitoring and credential vault:** metrics, logs, alerting and runbooks, self-hosted uptime checks on an open-source monitor with Teams alerts, plus secrets with KMS envelope encryption, rotation and Azure AD directory sync.
 - **Shared packages:** Entra ID sign-in with JWT, API keys and RBAC, and AWS connection management with credential rotation and audit, shared by several internal apps.
 - **AWS infrastructure in Terraform:** moved production from a single VM to Amazon EKS with Karpenter, Aurora Serverless v2 and keyless GitHub OIDC deploys.
 - **Cost:** traced 91% of an AWS account's CloudWatch log spend to one DEBUG-level Lambda, a ~$3K/month fix, and proposed a self-hosted log stack projected to save ~$47.9K a year.
