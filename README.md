@@ -15,6 +15,8 @@ Platform and solutions engineer in Hyderabad, India. I build and run the interna
 | [A document assistant on Bedrock](https://shareefsyeds.github.io/projects/rag/) | Retrieval-augmented answers over internal documents, in the web app and Microsoft Teams | Pilot |
 | [An AI agent team with human approval](https://shareefsyeds.github.io/projects/agents/) | AI plans and drafts code changes. A person approves the plan and merges the result. | In development |
 
+Each project has a full write-up with an interactive diagram in [case-studies](https://github.com/shareefsyeds/case-studies).
+
 ### Also on the platform
 
 - **Eight self-service apps** that let staff run routine operations themselves: release automation, environment builds (21 automated steps), self-service database accounts, data provisioning with expiry, multi-tenant account management, email deliverability checks, document delivery and operational dashboards. Every action is audited.
