@@ -15,6 +15,14 @@ Platform and solutions engineer in Hyderabad, India. I build and run the interna
 | [A document assistant on Bedrock](https://shareefsyeds.github.io/projects/rag/) | Retrieval-augmented answers over internal documents, in the web app and Microsoft Teams | Pilot |
 | [An AI agent team that asks before it builds](https://shareefsyeds.github.io/projects/agents/) | AI plans and drafts code changes. A person approves the plan and merges the result. | In development |
 
+### Also on the platform
+
+- **Eight self-service apps** that turn operational requests into buttons: release automation, environment builds (21 automated steps), self-service database accounts, data provisioning with expiry, multi-tenant account management, email deliverability checks, document delivery and operational dashboards. Every action is audited.
+- **Observability platform and credential vault:** metrics, logs, alerting and runbooks, plus secrets with KMS envelope encryption, rotation and Azure AD directory sync.
+- **Shared packages:** Entra ID sign-in with JWT, API keys and RBAC, and AWS connection management with credential rotation and audit, shared by several internal apps.
+- **AWS infrastructure in Terraform:** moved production from a single VM to Amazon EKS with Karpenter, Aurora Serverless v2 and keyless GitHub OIDC deploys.
+- **Cost:** traced 91% of an AWS account's CloudWatch log spend to one DEBUG-level Lambda, a ~$3K/month fix, and proposed a self-hosted log stack projected to save ~$47.9K a year.
+
 ### How I work
 
 - **Start with the people.** Requirements come straight from the finance, supply chain, clinical-operations and IT colleagues who work with customers.
